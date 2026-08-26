@@ -1,0 +1,146 @@
+# opendorse Help Center
+
+> Opendorse Help Center
+
+## Čeština
+
+### Your Opendorse Account
+
+- [Proč opendorse?](http://help.opendorse.com/cs/articles/3525665-proc-opendorse.md): Opendorse vám umožní plně kontrolovat obsah, který vyjde na vašich profilech
+- [Začínáme](http://help.opendorse.com/cs/articles/3525647-zaciname.md): Zaregistrujte se a sdílejte vysoce kvalitní sociální obsah
+- [Jak to funguje](http://help.opendorse.com/cs/articles/3525626-jak-to-funguje.md): Opendorse zjednodušuje odebírání vysoce kvalitního sociálního obsahu zdarma
+
+## English
+
+### Your Opendorse Account
+
+- [Connecting your Opendorse Account to Hyperwallet](http://help.opendorse.com/en/articles/12701729-connecting-your-opendorse-account-to-hyperwallet.md): Hyperwallet connection walkthrough
+- [Why Opendorse](http://help.opendorse.com/en/articles/3525665-why-opendorse.md): Find out why over 70k users trust Opendorse
+- [Connect your agency's bank account](http://help.opendorse.com/en/articles/7920902-connect-your-agency-s-bank-account.md)
+- [Getting Started](http://help.opendorse.com/en/articles/3525647-getting-started.md): Sign up to access and share high quality social content.
+- [How it Works](http://help.opendorse.com/en/articles/3525626-how-it-works.md): Opendorse makes it simple to receive free, high-quality, engaging social content
+- [Connect and Manage Social Channels](http://help.opendorse.com/en/articles/3829059-connect-and-manage-social-channels.md): Connect and reconnect X\(Twitter\), Facebook, Instagram, TikTok and LinkedIn channels
+- [Set your language preference](http://help.opendorse.com/en/articles/3483267-set-your-language-preference.md): Opendorse supports language translations for users
+- [Set your notification preference](http://help.opendorse.com/en/articles/2270870-set-your-notification-preference.md)
+- [Change Your Password](http://help.opendorse.com/en/articles/3730580-change-your-password.md): Change your account password on Opendorse
+- [Don't Know or Forgot Your Password?](http://help.opendorse.com/en/articles/5318406-don-t-know-or-forgot-your-password.md): How to reset your password if you don't know or forgot it
+- [Download the Opendorse Mobile App](http://help.opendorse.com/en/articles/3793524-download-the-opendorse-mobile-app.md): Download the free Opendorse Mobile App to your iOS or Android device
+- [Sign in to the Opendorse Mobile App](http://help.opendorse.com/en/articles/3807865-sign-in-to-the-opendorse-mobile-app.md): How to sign in with Apple, Facebook, Twitter and link to the Opendorse Mobile App
+- [Sign up via the Opendorse Mobile App](http://help.opendorse.com/en/articles/4550744-sign-up-via-the-opendorse-mobile-app.md): Create an Opendorse account by signing up through the Mobile App
+- [Do you offer alternate time zones?](http://help.opendorse.com/en/articles/2271980-do-you-offer-alternate-time-zones.md): Other time zone for post scheduler tool
+- [How do WhatsApp notifications work?](http://help.opendorse.com/en/articles/3440429-how-do-whatsapp-notifications-work.md): How to add WhatsApp and what notifications from Opendorse look like
+- [What browsers, devices, and operating systems does Opendorse support?](http://help.opendorse.com/en/articles/3800170-what-browsers-devices-and-operating-systems-does-opendorse-support.md): App Operating System & Devices Supported
+
+### Opendorse Content for Teams
+
+- [Roster Groups](http://help.opendorse.com/en/articles/7852426-roster-groups.md)
+- [Welcome to Opendorse Content for Teams](http://help.opendorse.com/en/articles/3955214-welcome-to-opendorse-content-for-teams.md): Log in to learn how to get the most out of Opendorse
+- [A user on my roster connected their Facebook profile in the past but now I cannot send them content](http://help.opendorse.com/en/articles/2270946-a-user-on-my-roster-connected-their-facebook-profile-in-the-past-but-now-i-cannot-send-them-content.md): Facebook profile post permission
+- [Can I send a reminder to a user to review content?](http://help.opendorse.com/en/articles/2271937-can-i-send-a-reminder-to-a-user-to-review-content.md): Reminder texts to review content
+- [Can someone review content on a user's behalf?](http://help.opendorse.com/en/articles/2271978-can-someone-review-content-on-a-user-s-behalf.md): Add a content reviewer for a user
+- [Can you explain choosing schedule vs. share in the composer?](http://help.opendorse.com/en/articles/2271920-can-you-explain-choosing-schedule-vs-share-in-the-composer.md): How to schedule posts or have them go out instantly
+
+### Opendorse Marketplace for Brands & Fans
+
+- [How payments work on Opendorse](http://help.opendorse.com/en/articles/6421469-how-payments-work-on-opendorse.md): So you've sent a deal, now what? This guide walks you through how your payment is processed on Opendorse.
+- [Pitch a Fan Deal from the Marketplace](http://help.opendorse.com/en/articles/6434033-pitch-a-fan-deal-from-the-marketplace.md): Sending a Deal to your favorite athlete just got even easier! Here's everything you need to know about the new Opendorse Marketplace.
+- [Create a Saved List on the Discover Tab](http://help.opendorse.com/en/articles/5617299-create-a-saved-list-on-the-discover-tab.md): Save a list of your favorite athletes for easy access when building Deals
+- [Create a Deal](http://help.opendorse.com/en/articles/6695290-create-a-deal.md): Build a Deal Offer for an Athlete
+- [Create an Opportunity](http://help.opendorse.com/en/articles/6763394-create-an-opportunity.md): Build an Opportunity for Prospective Athletes to apply for your deal!
+- [Breaking down: Pitching Athletes](http://help.opendorse.com/en/articles/4733746-breaking-down-pitching-athletes.md): A guide to a successful pitch to publish process
+
+### Opendorse Compliance for Teams
+
+- [2022 Disclosure Summary report](http://help.opendorse.com/en/articles/5942509-2022-disclosure-summary-report.md): How to access your Disclosure Summary report in Opendorse
+- [Auto-disclose enrollment for Deals](http://help.opendorse.com/en/articles/5901720-auto-disclose-enrollment-for-deals.md)
+- [New Features for Opendorse Compliance](http://help.opendorse.com/en/articles/6687486-new-features-for-opendorse-compliance.md): View disclosures by deal and make bulk changes to status
+
+### Opendorse Content for Users
+
+- [How to Publish 'Shared' media](http://help.opendorse.com/en/articles/3611813-how-to-publish-shared-media.md)
+- [Download media from the Opendorse Mobile App](http://help.opendorse.com/en/articles/3851705-download-media-from-the-opendorse-mobile-app.md): Save shared photos & videos to your iOS or Android device
+
+### Opendorse Marketplace for Users
+
+- [Opendorse + Taxes FAQs](http://help.opendorse.com/en/articles/5923310-opendorse-taxes-faqs.md): Questions about taxes, W-9 forms, 1099 forms, etc.
+- [Athlete Proof In The Mobile App FAQs](http://help.opendorse.com/en/articles/6398215-athlete-proof-in-the-mobile-app-faqs.md)
+- [Opendorse ARC™](http://help.opendorse.com/en/articles/6424736-opendorse-arc.md): Everything you need to know about the Opendorse Athlete Rate Card™
+
+### Opendorse Disclosure for Users
+
+- [New Insights Dashboard](http://help.opendorse.com/en/articles/7950412-new-insights-dashboard.md): A rundown of the new Insights dashboard features for schools
+
+### Opendorse for Athlete Reps
+
+- [Athlete Representatives on Opendorse](http://help.opendorse.com/en/articles/5669148-athlete-representatives-on-opendorse.md): Types of representation for an athlete and working with Opendorse.
+
+### Social Media Channels
+
+- [Facebook Page Best Practices](http://help.opendorse.com/en/articles/4154792-facebook-page-best-practices.md): Optimize your Facebook NIL earning potential by following these best practices
+- [Instagram Profile Best Practices](http://help.opendorse.com/en/articles/4154739-instagram-profile-best-practices.md): Optimize your Instagram NIL earning potential by following these best practices
+- [Twitter Profile Best Practices](http://help.opendorse.com/en/articles/4154177-twitter-profile-best-practices.md): Optimize your Twitter NIL earning potential by following these best practices
+- [Connect Instagram Troubleshooting](http://help.opendorse.com/en/articles/3959475-connect-instagram-troubleshooting.md): Help connecting personal or professional Instagram channels
+- [Switch to a Professional Instagram Account](http://help.opendorse.com/en/articles/3820325-switch-to-a-professional-instagram-account.md): Change a Personal Instagram Account to Business Account
+- [Instagram Data Access Through Opendorse](http://help.opendorse.com/en/articles/11229423-instagram-data-access-through-opendorse.md): What data is accessible based on account type and connection.
+
+### Data Products
+
+- [Team Builder FAQs](http://help.opendorse.com/en/articles/10859618-team-builder-faqs.md): Team Builder Benefits, Access, and Data
+- [Market Intel FAQs](http://help.opendorse.com/en/articles/10846340-market-intel-faqs.md): Market Intel Access, Data & Methodology, and Pricing
+
+### Contracts
+
+- [Contracts - FAQ & How it works](http://help.opendorse.com/en/articles/11221682-contracts-faq-how-it-works.md): Contracts system, how it works and frequently asked questions
+- [Send Bulk Chats \(Contracts\)](http://help.opendorse.com/en/articles/11487081-send-bulk-chats-contracts.md): How to send chats to multiple contract recipients at once!
+
+### Opendorse Exclusive Benefits
+
+- [🎁 Holiday Week Exclusives Just for You](http://help.opendorse.com/en/articles/12922701-holiday-week-exclusives-just-for-you.md): Exclusive discounts and offers from brands you'll love!
+
+## Suomi
+
+### Your Opendorse Account
+
+- [Miksi Opendorse?](http://help.opendorse.com/fi/articles/3525665-miksi-opendorse.md)
+- [Näin pääset alkuun](http://help.opendorse.com/fi/articles/3525647-nain-paaset-alkuun.md): Rekisteröidy hyödyntääksesi ja jakaaksesi laadukasta sosiaalisen median sisältöä.
+- [Näin se toimii](http://help.opendorse.com/fi/articles/3525626-nain-se-toimii.md): Opendorsen avulla saat helposti ilmaista, laadukasta ja kiinnostavaa sosiaalisen median sisältöä.
+
+## Français
+
+### Your Opendorse Account
+
+- [Pourquoi utiliser Opendorse?](http://help.opendorse.com/fr/articles/3525665-pourquoi-utiliser-opendorse.md)
+- [Introduction](http://help.opendorse.com/fr/articles/3525647-introduction.md): Inscrivez-vous et partagez du contenu de qualité sur les médias sociaux.
+- [Comment ça fonctionne](http://help.opendorse.com/fr/articles/3525626-comment-ca-fonctionne.md)
+
+## Deutsch
+
+### Your Opendorse Account
+
+- [Warum Opendorse?](http://help.opendorse.com/de/articles/3525665-warum-opendorse.md)
+- [Anleitung](http://help.opendorse.com/de/articles/3525647-anleitung.md): Melde dich an, um Zugang zu hochwertigen sozialen Inhalten zu erhalten und diese zu teilen.
+- [Wie es funktioniert](http://help.opendorse.com/de/articles/3525626-wie-es-funktioniert.md): Opendorse macht es einfach, kostenlose, qualitativ hochwertige und ansprechende Social-Media-Inhalte zu erhalten.
+
+## Pусский
+
+### Your Opendorse Account
+
+- [Почему Opendorse?](http://help.opendorse.com/ru/articles/3525665-почему-opendorse.md)
+- [Первые шаги](http://help.opendorse.com/ru/articles/3525647-первые-шаги.md): Зарегистрируйтесь для доступа и возможности делиться социальным контентом высокого качества.
+- [Как это работает](http://help.opendorse.com/ru/articles/3525626-как-это-работает.md): С помощью Opendorse можно легко получать бесплатный, качественный и увлекательный контент для соцсетей.
+
+## Español
+
+### Your Opendorse Account
+
+- [Por Que Opendorse?](http://help.opendorse.com/es/articles/3525665-por-que-opendorse.md)
+- [Comenzer](http://help.opendorse.com/es/articles/3525647-comenzer.md): Subscíbase para accedir contenido social de alta calidad
+- [Como Funciona](http://help.opendorse.com/es/articles/3525626-como-funciona.md): Opendorse simplifica como recibir contenido social gratis, atractivo, y de alta calidad.
+
+## Svenska
+
+### Your Opendorse Account
+
+- [Varför Opendorse?](http://help.opendorse.com/sv/articles/3525665-varfor-opendorse.md)
+- [Kom igång](http://help.opendorse.com/sv/articles/3525647-kom-igang.md): Registrera dig för att få tillgång till och dela högkvalitativt innehåll på sociala medier
+- [Så fungerar det](http://help.opendorse.com/sv/articles/3525626-sa-fungerar-det.md): Opendorse gör det enkelt att ta emot gratis, högkvalitativt och bra innehåll för sociala medier

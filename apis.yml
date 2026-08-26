@@ -1,17 +1,39 @@
 aid: opendorse
 name: Opendorse
-description: 'Opendorse is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Opendorse is an athlete marketplace and name, image and likeness (NIL) technology
+  company headquartered in Lincoln, Nebraska. Its platform lets brands, fans, schools,
+  collectives and sponsors send endorsement deals to athletes, and lets athletes
+  understand, price, accept and fulfill those deals. The product set spans Opendorse
+  Deals (an open athlete endorsement marketplace), Opendorse Social (branded social
+  content scheduling, delivery and publishing across X, Facebook, Instagram, TikTok
+  and LinkedIn), Opendorse Ready (athlete NIL education), Opendorse Compliance and
+  Disclosure (deal disclosure workflows and reporting for athletic departments),
+  Contracts, Team Builder, and data products including Market Intel and the Athlete
+  Rate Card fair-market-value estimate. Opendorse works with more than 100 NCAA
+  athletic departments and with the USOPC, NFLPA, MLBPA, NBPA, NHLPA, PGA TOUR and
+  LPGA. It ships an end-user product only: as of this profile Opendorse publishes no
+  public developer portal, API reference or machine-readable contract.
 url: https://raw.githubusercontent.com/api-evangelist/opendorse/refs/heads/main/apis.yml
+image: https://biz.opendorse.com/wp-content/uploads/2026/04/OpendorseHomePage_04292026.jpg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Sports
+- Athletes
+- Name Image Likeness
+- NIL
+- Marketplace
+- Endorsements
+- Social Media
+- Compliance
+- Higher Education
+- Payments
+- Marketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,65 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/opendorse-domain-security.yml
 - type: Website
+  url: https://opendorse.com/
+- type: Support
+  url: https://help.opendorse.com/
+- type: HelpCenter
+  url: https://help.opendorse.com/
+- type: Blog
+  url: https://biz.opendorse.com/blog/
+- type: BlogRSS
+  url: https://biz.opendorse.com/feed/
+- type: Pricing
+  url: https://biz.opendorse.com/pricing/
+- type: Login
+  url: https://app.opendorse.com/
+- type: TermsOfService
+  url: https://biz.opendorse.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://biz.opendorse.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/Opendorse
+- type: LLMsTxt
+  url: llms/opendorse-llms.txt
+- type: Plans
+  url: plans/opendorse-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/opendorse-rate-limits.yml
+- type: Packages
+  url: packages/opendorse-packages.yml
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/opendorse-stock
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 7
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Opendorse runs a live API host at api.opendorse.com behind Azure Front Door, but it
+    is the private backend for its own web and mobile apps: the root serves a stock
+    "Your app is up and running." page, every /swagger* path is refused 403 at the edge,
+    /openapi.json and /v1/openapi.json 404, the biz.opendorse.com page sitemap lists no
+    developer or API page among its 80 published pages, the help-center llms.txt index
+    of 146 articles contains zero mentions of "API", "webhook" or "developer", and the
+    Opendorse GitHub organization has no public repositories.
+  evidence:
+    - url: https://api.opendorse.com/openapi.json
+      status: 404
+    - url: https://api.opendorse.com/swagger/v1/swagger.json
+      status: 403
+    - url: https://api.opendorse.com/
+      status: 200
+    - url: https://opendorse.com/.well-known/api-catalog
+      status: 404
+    - url: https://biz.opendorse.com/page-sitemap.xml
+      status: 200
+    - url: https://api.github.com/orgs/Opendorse/repos
+      status: 200
+  checked: '2026-08-26'

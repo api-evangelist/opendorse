@@ -1,0 +1,172 @@
+generated: '2026-08-26'
+method: probed
+source: >-
+  Live unauthenticated GET of each /.well-known/ path on every Opendorse host
+  discovered during STEP 0b contract discovery (2026-08-26).
+name: Opendorse well-known documents
+description: >-
+  Probe record of RFC 8615 /.well-known/ discovery documents across every host
+  Opendorse serves. Only one path returned a document, and that document is the
+  Intercom vendor default served from the Intercom-hosted help center — see the
+  note. No WellKnown or SecurityTxt pointer is wired into apis.yml as a result:
+  Opendorse itself does not publish a discovery document.
+hosts:
+- host: opendorse.com
+  note: >-
+    Next.js single-page marketing/athlete site. Every unknown path returns HTTP
+    404 with the same 44,660-byte HTML shell, so a 404 here is a real miss.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: api.opendorse.com
+  note: >-
+    Azure App Service origin behind Azure Front Door. The root returns a stock
+    "Your app is up and running." page titled "API - Opendorse" with a Log in
+    link. Every /.well-known/ path 404s. Note that /swagger, /swagger/index.html
+    and /swagger/v1/swagger.json all return 403 from Azure Front Door while
+    unknown paths return 404 — an edge rule, not a published document.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: biz.opendorse.com
+  note: >-
+    WordPress (WP Engine) marketing site. /.well-known/security.txt returns the
+    nginx 404; the remaining paths return the WordPress 404 template.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: help.opendorse.com
+  note: >-
+    Intercom-hosted help center on an Opendorse CNAME. The one 200 is Intercom's
+    own vendor-default security.txt — its Canonical field points at
+    https://app.intercom.com/.well-known/security.txt and its Contact/Policy
+    fields name Intercom's Bugcrowd program, not an Opendorse one. Saved for the
+    record; deliberately NOT wired as a SecurityTxt or Security pointer, because
+    it does not assert an Opendorse vulnerability-disclosure program.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: opendorse-help-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: app.opendorse.com
+  note: >-
+    The Opendorse web application (client-rendered SPA). It answers HTTP 200 with
+    the same HTML app shell for EVERY /.well-known/ path, including paths that
+    cannot exist. These are SPA catch-all false positives, not documents, and are
+    recorded here as misses so a later pass does not re-credit them.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: marketplaces.opendorse.com
+  note: >-
+    Azure Blob Storage static host (odstcoreprodncus01.blob.core.windows.net).
+    Returns application/xml storage errors (HTTP 400/404) for every path probed.
+  documents:
+  - path: /.well-known/security.txt
+    status: 400
+    file: null
+  - path: /.well-known/api-catalog
+    status: 400
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 400
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 400
+    file: null
+summary:
+  hosts_probed: 6
+  documents_served: 1
+  documents_owned_by_provider: 0
+  agent_card_found: false
+  api_catalog_found: false

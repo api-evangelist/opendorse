@@ -1,0 +1,77 @@
+generated: '2026-08-26'
+method: searched
+source: https://biz.opendorse.com/pricing/
+name: Opendorse plans and pricing
+description: >-
+  Opendorse publishes a three-tier plan ladder for its school/athletic-department
+  product with feature lists, but publishes NO prices, currencies, billing periods
+  or quotas for any tier. Every tier routes to a "Get Pricing" contact form. The
+  tier names and their published feature lists are captured verbatim below; no
+  price is recorded because none is published.
+pricing_url: https://biz.opendorse.com/pricing/
+pricing_url_status: 200
+plan_count: 3
+prices_published: false
+currency: null
+billing_period: null
+plans:
+- name: Starter
+  price: null
+  currency: null
+  billing_period: null
+  quota: null
+  overage: null
+  limits: []
+  features:
+  - Discover
+  - Best Practices
+  - Disclosures
+  - Publishing
+  - Assessments
+  - Help Desk
+  - Chat Support
+  note: No price published; the tier links to the "Get Pricing" contact form.
+- name: Pro
+  price: null
+  currency: null
+  billing_period: null
+  quota: null
+  overage: null
+  limits: []
+  features:
+  - Everything in Starter
+  - Curated Profiles
+  - Resource Library
+  - Transaction Tracker
+  - Automated Disclosures
+  - Media Library
+  - Social Dashboard
+  - Virtual Onboarding
+  - Account Manager
+  note: No price published; the tier links to the "Get Pricing" contact form.
+- name: Premium
+  price: null
+  currency: null
+  billing_period: null
+  quota: null
+  overage: null
+  limits: []
+  features:
+  - Everything in Pro
+  - Licensed Marketplace
+  - Masterclass Collection
+  - On-Site Consultation
+  - Integrations
+  - Custom Reports
+  - Compliance Consultant
+  note: >-
+    No price published. "Integrations" is listed as a Premium-tier feature, but
+    Opendorse publishes no developer documentation, API reference or machine-readable
+    contract describing what those integrations are or how to call them.
+related:
+- name: Subscription Terms
+  url: https://biz.opendorse.com/subscription-terms/
+  status: 200
+- name: Deal Terms
+  url: https://biz.opendorse.com/deal-terms/
+  status: 200

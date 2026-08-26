@@ -1,0 +1,27 @@
+generated: '2026-08-26'
+method: searched
+source: >-
+  Searched the whole published Opendorse surface for rate-limit documentation on
+  2026-08-26: biz.opendorse.com page + post sitemaps, the help.opendorse.com
+  llms.txt article index (146 entries, zero matches for "API", "rate", "limit",
+  "webhook", "throttl" or "developer"), and every /openapi, /swagger, /docs and
+  /.well-known path on opendorse.com, api.opendorse.com, app.opendorse.com and
+  biz.opendorse.com.
+name: Opendorse rate limits
+description: >-
+  Opendorse publishes no public API reference, so there is no documented rate
+  limit, no documented response headers and no documented exhaustion status code.
+  This is an honest zero, recorded so the absence is countable rather than
+  unmeasured.
+limit_count: 0
+limits: []
+headers: []
+exhaustion_status: null
+docs: null
+note: >-
+  api.opendorse.com is a live Azure App Service origin behind Azure Front Door and
+  is the backend for the Opendorse web and mobile apps, but it is not a published
+  developer API: its root serves a generic "Your app is up and running." page and
+  all /swagger* paths are refused with HTTP 403 at the edge. Any runtime rate
+  limiting it applies is undocumented and was not probed, because probing an
+  undocumented private API is out of scope for this pipeline.

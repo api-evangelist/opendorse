@@ -1,0 +1,56 @@
+generated: '2026-08-26'
+method: searched
+source: >-
+  Unauthenticated registry searches on 2026-08-26 (registry.npmjs.org search API,
+  pypi.org/pypi/opendorse/json, github.com/Opendorse org repo listing) plus a walk
+  of biz.opendorse.com's published sitemap and the help.opendorse.com llms.txt
+  index for any SDK, client library or developer page.
+name: Opendorse client libraries and SDKs
+description: >-
+  No first-party Opendorse client library, SDK or CLI is published to any public
+  package registry, and the company's GitHub organization has no public
+  repositories. Recorded as a searched zero, not an unchecked gap.
+official_packages: 0
+packages: []
+registries_checked:
+- registry: npm
+  query: https://registry.npmjs.org/-/v1/search?text=opendorse&size=20
+  status: 200
+  result: 0 packages returned
+  version: null
+  published: null
+  note: Registry answered; no package named or scoped to Opendorse exists.
+- registry: pypi
+  query: https://pypi.org/pypi/opendorse/json
+  status: 404
+  result: no such project
+  version: null
+  published: null
+  note: Registry answered 404; checked, nothing to record.
+- registry: github
+  query: https://api.github.com/orgs/Opendorse/repos
+  status: 200
+  result: 0 public repositories
+  version: null
+  published: null
+  note: >-
+    The GitHub organization https://github.com/Opendorse is real (id 36571421,
+    "The athlete marketing platform", Lincoln NE, prod.tech@opendorse.com) but
+    publishes no public repositories, so there is no source-distributed client
+    either.
+mobile_apps:
+- name: Opendorse (iOS)
+  distribution: app-store
+  url: https://apps.apple.com/us/developer/opendorse-inc/id1496172099
+  version: null
+  published: null
+  note: >-
+    End-user mobile application, not a developer package. Listed for completeness
+    only; app stores are not client-library distribution and this is not counted
+    in official_packages.
+- name: Opendorse (Android)
+  distribution: google-play
+  url: https://play.google.com/store/apps/details?id=com.opendorse
+  version: null
+  published: null
+  note: End-user mobile application, not a developer package.

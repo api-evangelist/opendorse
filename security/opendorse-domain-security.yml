@@ -1,0 +1,56 @@
+generated: '2026-08-26'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts (probe-domain-security.py), extended 2026-08-26
+  with hand-probed TLS/HSTS for the four additional Opendorse hosts found during STEP 0b contract discovery
+  (api., app., biz., help.)
+hosts:
+- host: opendorse.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 10 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: api.opendorse.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 10 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: true
+  note: Azure App Service origin behind Azure Front Door; backend for the Opendorse apps, not a published
+    developer API.
+- host: app.opendorse.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 10 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: true
+  note: Opendorse web application (client-rendered SPA).
+- host: biz.opendorse.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 26 15:24:56 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: false
+  note: WordPress marketing site on WP Engine.
+- host: help.opendorse.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 19 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: false
+  note: Intercom-hosted help center on an Opendorse CNAME.
+domains:
+- domain: opendorse.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+  caa_note: No CAA record published for opendorse.com (dig +short CAA returned nothing) — a real absence,
+    not an unread probe.
+  dmarc_record: v=DMARC1; p=none;
+  dmarc_note: DMARC is published but the policy is p=none (monitor only) — no quarantine or reject enforcement.
