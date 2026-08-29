@@ -15,6 +15,17 @@ description: >-
   LPGA. It ships an end-user product only: as of this profile Opendorse publishes no
   public developer portal, API reference or machine-readable contract.
 url: https://raw.githubusercontent.com/api-evangelist/opendorse/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://biz.opendorse.com/wp-content/uploads/2026/04/OpendorseHomePage_04292026.jpg
 x-type: company
 x-source: harvest:secondary-market
