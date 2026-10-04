@@ -54,7 +54,7 @@ tags:
 - NIL
 - Marketplace
 - Endorsements
-- Social-Media
+- Social Media
 - Compliance
 - Higher Education
 - Payments
@@ -72,6 +72,7 @@ tags_raw:
 - Higher Education
 - Payments
 - Marketing
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
